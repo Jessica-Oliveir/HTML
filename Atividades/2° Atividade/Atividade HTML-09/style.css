@@ -1,0 +1,44 @@
+body{
+    box-shadow: 0 0 10px rgb(194, 110, 110);
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 30%;
+}
+
+.nome{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.email{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #d3c4c4;
+    
+}
+
+button{
+    margin-top: 12px;
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px;
+    background-color: rgb(65, 187, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;    
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 10px;
+}

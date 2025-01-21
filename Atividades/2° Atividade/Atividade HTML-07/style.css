@@ -1,0 +1,29 @@
+div{
+    width: 30%;
+    font-weight: bold;
+}
+button{
+    background-color: rgb(79, 224, 79);
+    padding: 3px;
+    cursor: pointer;
+    width: 30%;
+    margin: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+input[type="button"]{
+    background-color: rgb(235, 45, 45);
+    padding: 3px;
+    cursor: pointer;
+    width: 30%;
+    margin: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(60, 143, 60);
+}
+input[type="button"]:hover{
+    background-color: rgb(155, 26, 26);
+}

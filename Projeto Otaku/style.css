@@ -1,0 +1,142 @@
+:root{
+    --branco: #fff;
+    --branco-secundario: #f9f9f9;
+    --botao-laranja: #FF740A;
+    --cor-de-fundo: #170A00;
+    --fonte-primaria: "Bangers";
+    --fonte-secundaria:"Roboto";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.principal{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(./png/Background.png);
+    background-repeat: no-repeat;
+    /* pega todo o espaço "contain" */
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container__caixa{
+    margin: 0 6em;
+}
+
+.container__titulo{
+    font-size: 24px;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    letter-spacing: 2PX;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.container__botao{
+    background-color: var(--botao-laranja);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco);
+    display: block;
+    text-decoration: none;
+    margin: 1em;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco);
+}
+
+.container__aviso{
+    font-size: 12px;
+}
+
+/* Segunda seção */
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;    
+}
+
+.secundario__imagem{
+width: 80%;
+}
+
+.container__descricao{
+padding: 2em;
+}
+
+.descricao__titulo{
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    }
+
+.descricao__texto{
+    margin-bottom: 1em;
+    line-height: 24px;
+    /* ou 1.5em */
+}
+
+/* Terceira seção */
+.secundario__botao{
+    display: inline-block;
+}
+
+/* Quinta seção */
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__listas{
+    display: flex;
+    list-style: none;
+    /* alinhas no centro */
+    justify-content: center;
+    margin: 5em 0;    
+}
+
+.lista__item{
+    font-size: 2em;
+}
+
+.rodape{
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+}
+
+.rodape__logo{
+    margin-bottom: 1em;
+}
+
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 2em 0;    
+}
+
+.lista__link{
+    margin: 0 0.5em;
+}
+
+.rodape__texto{
+    margin: 1em 0;
+    font-size: 0.875em;
+}
